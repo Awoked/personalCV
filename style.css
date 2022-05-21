@@ -1,0 +1,220 @@
+body{
+    background-color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#headerblur{
+    filter: blur(100%);
+    position: fixed;
+    z-index: 1;
+    top: 0;height: 50px;
+    width: 100%;
+    background-color: #262626a6;
+}
+#header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+    width: 100%;
+}
+.parallax{
+    margin: auto;
+    width: 80%;
+    min-height: 500px;
+    background: url(cute-draw.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 80%;
+}
+.container{
+    margin: auto;
+    max-width: 550px;
+    height: 2960px;
+}
+.navbar{
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 750px;
+    height: 100%;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navbar ul li{
+    float: left;
+    margin-right: 25px;
+}
+.navbar ul li{
+    line-height: 40px;
+}
+.navbar ul li a{
+    color: #dedede;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar ul li a:hover{
+    border-bottom: 3px #dedede solid;
+    border-radius: 3px;
+}
+.navbar ul li:first-child a:hover {
+    border-bottom: 0px #dedede solid;
+    border-radius: 3px;
+}
+.navbar ul li:first-child a{
+    font-size: 24px;
+}
+.navbar ul li:first-child{
+    margin-top: -3px;
+}
+.text-light{
+    color: #dedede;
+
+}
+.bolder{
+    font-size: 24px;
+    font-weight: bold;
+}
+#content{
+    width: 100%;
+    height: 2400px;
+}
+.contentTopInfoSide{
+    width: 100%;
+    height: 300px;
+}
+.contentTopInfoLeftSide{
+    width: 68%;
+    height: 100%;
+    float: left;
+}
+.contentTopInfoLeftSide a{
+    text-decoration: none;
+    transition: 0.2s ease;
+    color: #d874ff;
+}
+.contentTopInfoLeftSide a:hover{
+    transition: 0.2s ease;
+    color: #dedede;
+}
+.contentTopInfoRightSide{
+    width: 32%;
+    height: 150px;
+    float: left;
+}
+.topfullwidth{
+    margin: 20px auto;
+    width: 100%;
+    background-color: #303030;
+    height: 50px;
+    border-radius: 12px;
+}
+.fa{
+    margin-right: 5px;
+    color: #dedede;
+}
+.profilePhoto{
+    width: 92px;
+    height: 92px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+.skillsSide{
+    width: 100%;
+    height: 680px;
+    clear: both;
+}
+.skillsText{
+    font-size: 24px;
+    color: #00b4bf;
+}
+.skillSetRepeat{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 90px;
+}
+.reset{
+    width: 100%;
+}
+.skillSetRepeat progress{
+    width: 300px;
+}
+.hobbySide{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.hobbySide ul{
+    list-style-type: square;
+    margin: 0;
+    text-align: right;
+}
+
+.hobbySide ul li{
+    margin-top: 5px;
+    text-align: right;
+    direction: rtl;
+    color: #00b4bf;
+    font-size: 21px;
+}
+.educationInfo{
+    width: 100%;
+    height: 350px;
+}
+.educationText{
+    font-size: 32px;
+    font-weight: bold;
+    color: #dedede;
+    text-align: center;
+}
+.educationText span{
+    background-color:#01969e;
+    border-radius: 2px;
+}
+.edSchoolSection{
+    width: 100%;
+    margin: 40px 0px;
+    height: 50px;
+}
+.txtright{
+    float: right;
+}
+.edUpperText{
+    font-weight: bold;
+    color: #dedede;
+}
+.edAltText{
+    color: #b7b7b7;
+}
+.profileInfo{
+    width: 100%;
+    height: 500px;
+}
+.profileInfoH{
+    font-size: 32px;
+    font-weight: bold;
+    color: #dedede;
+}
+.profileInfoH span{
+    background-color: #01969e;
+    border-radius: 2px;
+}
+.profileInfo p{
+    color: #dedede;
+    text-align: justify;
+}
+.profileInfo b{
+    text-align: left;
+}
+#footer{
+    text-align: center;
+    width: 100%;
+    color: #b7b7b7;
+}
