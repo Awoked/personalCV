@@ -11,7 +11,61 @@
 *::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  
+  *{
+    
+    transition: .15s all ease-in-out;
+  }
+/*Body Light Theme*/
+.lightThemeBody{
+    transition: .3s all ease-in-out;
+    background-color: #e5e5e5;
+}
+/*Body Light Theme*/
+/*Header Light Theme*/
+.lightThemeHeaderBlur{
+    transition: .3s all ease-in-out;
+    background-color: #e5e5e5a6!important;
+}
+.lightThemeHeader div ul li a{
+    transition: .3s all ease-in-out;
+    color: #262626;
+}
+.lightThemeHeader div button{
+    transition: .3s all ease-in-out;
+    border-color: #262626;
+    color: #303030;
+}
+/*Header Light Theme*/
+
+/*Content Light Theme*/
+.contentBackgroundLight{
+    transition: .3s all ease-in-out;
+    background-color: #868686!important;
+}
+.contentTextLight div span,
+.contentTextLight div p,
+.contentTextLight div i,
+.contentTextLight div,
+.contentTextLight span,
+.contentTextLight h2{
+    transition: .3s all ease-in-out;
+    color: #2e2e2e!important;
+}
+.contentTextLight div a{
+    transition: .3s all ease-in-out;
+    color: #b700ff;
+}
+.contentTextLight div a:hover{
+    color: #490065;
+}
+.contentTextLight .profilePhoto{
+    transition: .3s all ease-in-out;
+    border-color: #262626;
+}
+/*Content Light Theme*/
+.websiteTheme{
+    display: flex!important;
+}
 html, body{
     margin: 0;
     width: 100%;
@@ -110,6 +164,7 @@ body{
     justify-content: flex-end;
     padding-right: 5px;
     box-sizing: border-box;
+    column-gap: 10px;
 }
 .navbar  button{
     display: none;

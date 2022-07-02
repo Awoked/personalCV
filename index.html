@@ -18,6 +18,11 @@
                     <li class="text-light"><a href="https://github.com/Awoked" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
                 </ul>
                 <div class="mobileMenu">
+                    <button onclick="theme();" class="websiteTheme">
+                        <span class="material-symbols-outlined">
+                            light_mode
+                        </span>
+                    </button>
                     <button onclick="menu();">
                         <span class="material-symbols-outlined">
                             menu
@@ -142,16 +147,6 @@
                 
             </div>
         </div>
-        <script>
-            function menu() {
-                let menuDisplay =document.querySelector(".mobileMenuDisplay");
-                if (menuDisplay.style.display == "flex") {
-                    menuDisplay.style.display = "none";
-                }else{
-                    menuDisplay.style.display = "flex";
-                }
-                
-            }
-        </script>
+        <script src="script.js"></script>
     </body>
 </html>
