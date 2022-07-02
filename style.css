@@ -124,12 +124,10 @@ body{
     transition: background-color 0.1s ease-in;
 }
 .navbar button:hover{
-    background-color: #d874ff2f;
     cursor: pointer;
 }
 .navbar button:active{
     background-color: #d874ff;
-
 }
 .text-light{
     color: #dedede;
